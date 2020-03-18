@@ -1,2 +1,3 @@
 # Understanding Redux
-Learning Redux through Building Apps
+
+Learning Redux through building apps.
