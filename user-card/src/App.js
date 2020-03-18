@@ -10,9 +10,10 @@ const initialState = {
   likes: 'Computers and Black Coffee',
   location: 'localhost'
 };
+
 const store = createStore(reducer, initialState);
 
-function App() {
+const App = () => {
   const { name, description, likes, location } = store.getState();
 
   return (
@@ -42,6 +43,6 @@ function App() {
       </section>
     </div>
   );
-}
+};
 
 export default App;
