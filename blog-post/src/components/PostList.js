@@ -7,6 +7,7 @@ class PostList extends Component {
   componentDidMount() {
     console.log(this.props.fetchPost());
   }
+
   render() {
     return (
       <div>
@@ -16,9 +17,6 @@ class PostList extends Component {
   }
 }
 
-export default connect(
-  null,
-  {
-    fetchPost
-  }
-)(PostList);
+export default connect(null, {
+  fetchPost
+})(PostList);

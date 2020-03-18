@@ -1,4 +1,4 @@
-# Bank Vault
+# Blog Post
 
 ## How to use
 
