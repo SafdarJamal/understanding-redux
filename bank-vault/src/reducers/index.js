@@ -1,4 +1,4 @@
-function reducer(state, action) {
+const reducer = (state, action) => {
   // console.log(state);
   // console.log(action);
 
@@ -39,6 +39,6 @@ function reducer(state, action) {
     default:
       return state;
   }
-}
+};
 
 export default reducer;

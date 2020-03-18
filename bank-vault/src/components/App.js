@@ -3,8 +3,8 @@ import './App.css';
 import formatNumber from 'format-number';
 import userPhoto from './images/userPhoto.jpg';
 
-import { store } from './store';
-import { setWithDrawAmount, setDepositAmount, giveAway } from './actions';
+import { store } from '../store';
+import { setWithDrawAmount, setDepositAmount, giveAway } from '../actions';
 
 class App extends Component {
   constructor(props) {
